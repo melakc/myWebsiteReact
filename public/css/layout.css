@@ -30,16 +30,26 @@ body {
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
 header {
   position: relative;
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #d6cebe url(../images/shape.svg) no-repeat top center;
+  background: #d6cebe no-repeat top center;
+  /*background-image: url(../images/shape.svg) ;*/
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
   overflow: hidden;
+  /*  */
 }
 
 /* vertically center banner section */
@@ -49,6 +59,7 @@ header:before {
   vertical-align: middle;
   height: 100%;
 }
+
 header .banner {
   display: inline-block;
   vertical-align: middle;
@@ -56,10 +67,23 @@ header .banner {
   width: 85%;
   padding-bottom: 30px;
   text-align: center;
+  position: relative;
+}
+.banner-text img {
+  display: inline-block;
+  vertical-align: baseline;
+  position: absolute;
+  height: 100%;
+  min-height: 500px;
+  width: 100%;
+  animation: spin 5s infinite;
+  object-fit: contain;
 }
 
 header .banner-text {
   width: 100%;
+  position: relative;
+  z-index: 1;
 }
 header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
