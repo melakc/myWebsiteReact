@@ -1,22 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 595.35 419.58">
-<metadata>
-<vectornator:setting key="DimensionsVisible" value="1"/>
-<vectornator:setting key="SnapToGrid" value="0"/>
-<vectornator:setting key="SnapToPoints" value="0"/>
-<vectornator:setting key="GuidesVisible" value="1"/>
-<vectornator:setting key="RulersVisible" value="1"/>
-<vectornator:setting key="CMYKEnabledKey" value="0"/>
-<vectornator:setting key="SnapToEdges" value="0"/>
-<vectornator:setting key="DisplayWhiteBackground" value="0"/>
-<vectornator:setting key="SnapToGuides" value="1"/>
-<vectornator:setting key="GridSpacing" value="36"/>
-<vectornator:setting key="Units" value="Millimeters"/>
-<vectornator:setting key="DynamicGuides" value="0"/>
-<vectornator:setting key="New" value="1"/>
-</metadata>
-<defs/>
-<g id="Ebene 1" vectornator:layerName="Ebene 1">
-<path stroke="#aca088" stroke-width="1" d="M215.761+160.356C216.223+162.319+213.798+149.1+213.798+145.544C213.798+135.428+214.598+124.313+219.152+115.205C231.346+90.817+265.503+76.4167+291.25+83.4387C317.738+90.6628+330.205+116.169+335.152+140.904C337.082+150.555+341.887+163.623+350.143+169.814C367.574+182.888+396.81+182.484+407.965+204.793C415.939+220.742+420.189+245.055+410.106+261.187C386.231+299.387+332.174+317.52+290.893+296.88C273.465+288.165+266.307+265.647+249.133+255.833C233.515+246.909+214.402+249.505+199.521+238.344C177.974+222.184+187.744+199.199+200.948+181.593C204.644+176.665+207.646+171.473+211.299+166.602C212.911+164.453+215.147+157.747+215.761+160.356Z" fill="#aca088" stroke-linecap="butt" opacity="1" stroke-linejoin="round"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns:vectornator="http://vectornator.io"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 841.9"
+	 style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#ACA088;stroke:#ACA088;stroke-width:0.9999;stroke-linejoin:round;stroke-miterlimit:3.9995;}
+</style>
+<g id="Ebene_1_1_" vectornator:layerName="Ebene 1">
+	<path class="st0" d="M215.7,370.8c0.5,2-2-11.3-2-14.8c0-10.1,0.8-21.2,5.4-30.3c12.2-24.4,46.3-38.8,72.1-31.8
+		c26.5,7.2,39,32.7,43.9,57.5c1.9,9.6,6.7,22.7,15,28.9c17.4,13.1,46.7,12.7,57.8,35c8,15.9,12.2,40.3,2.1,56.4
+		c-23.9,38.2-77.9,56.3-119.2,35.7c-17.4-8.7-24.6-31.2-41.8-41c-15.6-8.9-34.7-6.3-49.6-17.5c-21.5-16.2-11.8-39.1,1.4-56.7
+		c3.7-4.9,6.7-10.1,10.3-15C212.9,374.9,215.1,368.2,215.7,370.8z"/>
 </g>
 </svg>

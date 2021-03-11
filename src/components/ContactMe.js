@@ -14,7 +14,9 @@ export default class ContactMe extends Component {
         <div className="row">
           <aside className="eigth columns footer-widgets">
             <div className="widget">
-              <button variant="contained">Contact</button>
+              <button className="contactMe" variant="contained">
+                Contact
+              </button>
             </div>
           </aside>
         </div>
