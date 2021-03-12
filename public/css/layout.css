@@ -244,7 +244,7 @@ ul#nav li.current a {
 }
 #about p {
   line-height: 30px;
-  color: #4b4a4a;
+  color: #d6cebe;
 }
 #about .profile-pic {
   position: relative;
@@ -254,11 +254,6 @@ ul#nav li.current a {
 }
 #about .contact-details {
   width: 41.66667%;
-}
-#about .hobbies {
-  width: 41.66667%;
-}
-#about .hobbies-text {
 }
 
 #about .download {

@@ -51,7 +51,7 @@
     height: auto;
     margin-left: 12px;
   }
-  #about .contact-details {
+  #about .contact-details .content {
     width: 50%;
   }
   #about .download {
