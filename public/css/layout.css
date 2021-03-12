@@ -1,9 +1,6 @@
 /*
 =====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
+
 
    TOC:
    a. General Styles
@@ -12,7 +9,6 @@
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
-   g. Testimonials Section
    h. Contact Section
    i. Footer
 
@@ -23,7 +19,7 @@
 /* ------------------------------------------------------------------ */
 
 body {
-  background: #0f0f0f;
+  background: transparent;
 }
 
 /* ------------------------------------------------------------------ */
@@ -739,189 +735,6 @@ call-to-action .button {
   color: #d8d8d8;
 }
 
-/* ------------------------------------------------------------------
-/* g. Testimonials
-/* ------------------------------------------------------------------ */
-
-#testimonials {
-  background: #1f1f1f url(../images/testimonials-bg.jpg) no-repeat center center;
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
-  background-attachment: fixed;
-
-  position: relative;
-  min-height: 200px;
-  width: 100%;
-  overflow: hidden;
-}
-#testimonials .text-container {
-  padding-top: 96px;
-  padding-bottom: 66px;
-}
-#testimonials h1 {
-  font: 18px/24px "opensans-bold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #fff;
-}
-#testimonials h1 span {
-  display: none;
-}
-#testimonials .header-col {
-  padding-top: 9px;
-}
-#testimonials .header-col h1:before {
-  font-family: "FontAwesome";
-  content: "\f10d";
-  padding-right: 10px;
-  font-size: 72px;
-  line-height: 72px;
-  text-align: left;
-  float: left;
-  color: #fff;
-}
-
-/*	Blockquotes */
-#testimonials blockquote {
-  margin: 0 0px 30px 0px;
-  padding-left: 0;
-  position: relative;
-  text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-}
-#testimonials blockquote:before {
-  content: none;
-}
-#testimonials blockquote p {
-  font-family: "librebaskerville-italic", serif;
-  padding: 0;
-  font-size: 24px;
-  line-height: 48px;
-  color: #fff;
-}
-#testimonials blockquote cite {
-  display: block;
-  font-size: 12px;
-  font-style: normal;
-  line-height: 18px;
-  color: #fff;
-}
-#testimonials blockquote cite:before {
-  content: "\2014 \0020";
-}
-#testimonials blockquote cite a,
-#testimonials blockquote cite a:visited {
-  color: #8b9798;
-  border: none;
-}
-
-/* Flex Slider
-/* ------------------------------------------------------------------ */
-
-/* Reset */
-.flexslider a:active,
-.flexslider a:focus {
-  outline: none;
-}
-.slides,
-.flex-control-nav,
-.flex-direction-nav {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.slides li {
-  margin: 0;
-  padding: 0;
-}
-
-/* Necessary Styles */
-.flexslider {
-  position: relative;
-  zoom: 1;
-  margin: 0;
-  padding: 0;
-}
-.flexslider .slides {
-  zoom: 1;
-}
-.flexslider .slides > li {
-  position: relative;
-}
-
-/* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li {
-  display: none;
-  -webkit-backface-visibility: hidden;
-}
-/* Suggested container for slide animation setups. Can replace this with your own */
-.flex-container {
-  zoom: 1;
-  position: relative;
-}
-
-/* Clearfix for .slides */
-.slides:before,
-.slides:after {
-  content: " ";
-  display: table;
-}
-.slides:after {
-  clear: both;
-}
-
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
-.no-js .slides > li:first-child {
-  display: block;
-}
-
-/* Slider Styles */
-.slides {
-  zoom: 1;
-}
-.slides > li {
-  /*margin-right: 5px; */
-  overflow: hidden;
-}
-
-/* Control Nav */
-.flex-control-nav {
-  width: 100%;
-  position: absolute;
-  bottom: -20px;
-  text-align: left;
-}
-.flex-control-nav li {
-  margin: 0 6px;
-  display: inline-block;
-  zoom: 1;
-  *display: inline;
-}
-.flex-control-paging li a {
-  width: 12px;
-  height: 12px;
-  display: block;
-  background: #ddd;
-  background: rgba(255, 255, 255, 0.3);
-  cursor: pointer;
-  text-indent: -9999px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px;
-  box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.3);
-}
-.flex-control-paging li a:hover {
-  background: #ccc;
-  background: rgba(255, 255, 255, 0.7);
-}
-.flex-control-paging li a.flex-active {
-  background: #fff;
-  background: rgba(255, 255, 255, 0.9);
-  cursor: default;
-}
-
 /* ------------------------------------------------------------------ */
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
@@ -935,13 +748,23 @@ call-to-action .button {
 #contact .section-head {
   margin-bottom: 42px;
 }
+#contact .contactMe {
+  font: 16px/30px "opensans-bold", "sans-serif";
+  color: #fff;
+  background-color: #d6cebe;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 12px 20px;
+  border: 1px solid #fff;
+}
+
 #contact .contactMe #contact a,
 #contact a:visited {
-  color: #8aad96;
+  color: #fff;
 }
 #contact a:hover,
 #contact a:focus {
-  color: #fff;
+  background-color: #8aad96;
 }
 
 #contact h1 {
@@ -1076,7 +899,7 @@ footer a:visited {
 }
 footer a:hover,
 footer a:focus {
-  color: #fff;
+  color: #8aad96;
 }
 
 /* copyright */
@@ -1120,6 +943,9 @@ footer .social-links li {
 footer .social-links li:first-child {
   margin-left: 0;
 }
+footer i:hover {
+  background: transparent;
+}
 
 /* Go To Top Button */
 #go-top {
@@ -1134,7 +960,7 @@ footer .social-links li:first-child {
   display: block;
   width: 60px;
   height: 60px;
-  background-color: #525252;
+  background-color: #fff;
 
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -1142,15 +968,11 @@ footer .social-links li:first-child {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 
-  color: #fff;
+  color: #aca088;
   font-size: 21px;
   line-height: 60px;
   border-radius: 100%;
 }
 #go-top a:hover {
   background-color: #8aad96;
-}
-
-#blockColorblindContent {
-  background: #aca088;
 }

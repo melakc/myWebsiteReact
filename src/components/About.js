@@ -22,7 +22,6 @@ export default class About extends Component {
                   <span>{resumeData.name}</span>
                   <br></br>
                   <span>{resumeData.address}</span>
-                  <br></br>
                 </p>
               </div>
               <div className="column content">
@@ -33,9 +32,7 @@ export default class About extends Component {
                     <li class="content__container__list__item">create art</li>
                     <li class="content__container__list__item">photograph</li>
                     <li class="content__container__list__item">read</li>
-                    <li class="content__container__list__item">
-                      play basketball
-                    </li>
+                    <li class="content__container__list__item">design shit</li>
                   </ul>
                 </div>
               </div>

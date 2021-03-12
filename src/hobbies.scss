@@ -227,3 +227,8 @@ body {
     transform: translate3d(0, -25%, 0);
   }
 }
+@media only screen and (max-width: 900px) {
+  #about.content {
+    width: 50%;
+  }
+}
