@@ -177,6 +177,7 @@ ul#nav {
   min-height: 48px;
   width: auto;
   background-color: #d6cebe;
+  border-bottom: 1px solid #fff;
 
   /* center align the menu */
   text-align: center;
