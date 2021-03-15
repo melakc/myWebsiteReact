@@ -741,6 +741,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
+  text-align: center;
   background: #aca088;
   padding-top: 96px;
   padding-bottom: 102px;
@@ -748,8 +749,10 @@ call-to-action .button {
 }
 #contact .section-head {
   margin-bottom: 42px;
+  text-align: center;
 }
 #contact .contactMe {
+  text-align: center;
   font: 16px/30px "opensans-bold", "sans-serif";
   color: #fff;
   background-color: #d6cebe;
@@ -762,6 +765,11 @@ call-to-action .button {
 #contact .contactMe #contact a,
 #contact a:visited {
   color: #fff;
+}
+
+#contact a,
+#contact a:visited {
+  color: #8aad96;
 }
 #contact a:hover,
 #contact a:focus {
@@ -795,8 +803,7 @@ call-to-action .button {
   margin-bottom: 6px;
 }
 #contact p.lead {
-  font: 18px/36px "opensans-light", sans-serif;
-  padding-right: 3%;
+  font: 24px/42px "opensans-light", sans-serif;
 }
 #contact .header-col {
   padding-top: 6px;
@@ -896,7 +903,7 @@ footer {
 
 footer a,
 footer a:visited {
-  color: #525252;
+  color: #fff;
 }
 footer a:hover,
 footer a:focus {
@@ -938,14 +945,15 @@ footer .social-links li {
   margin: 0;
   padding: 0;
   margin-left: 42px;
-  color: #8aad96;
+  color: #fff;
 }
 
 footer .social-links li:first-child {
   margin-left: 0;
 }
-footer i:hover {
+footer a:hover {
   background: transparent;
+  color: #8aad96;
 }
 
 /* Go To Top Button */

@@ -7,12 +7,10 @@ export default class ContactMe extends Component {
     return (
       <section id="contact">
         <div className=" row section-head">
-          <div className="four columns">
-            <p className="lead">Feel free to contact me.</p>
-          </div>
+          <p className="lead">Feel free to contact me :) !</p>
         </div>
         <div className="row">
-          <aside className="eigth columns footer-widgets">
+          <aside className="footer-widgets">
             <div className="widget">
               <a
                 className="contactMe"

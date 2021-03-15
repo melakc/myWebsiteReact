@@ -803,7 +803,6 @@
 }
 .fa-linkedin:before {
   content: "\f0e1";
-  color: #fff;
 }
 .fa-rotate-left:before,
 .fa-undo:before {
@@ -1220,7 +1219,6 @@
 }
 .fa-instagram:before {
   content: "\f16d";
-  color: #fff;
 }
 .fa-flickr:before {
   content: "\f16e";
