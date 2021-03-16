@@ -22,7 +22,6 @@ let resumeData = {
   aboutme:
     "I am 23 years old and work as an frontend developer at BCM Solutions in Stuttgart. I have an Bachelor's Dregree in economic computer science and worked for three years at an Consultant Agency in Frankfurt am Main. I believe that creativity is born and talent is learned.",
   address: "Not gonna tell u where I live.",
-  hobbies: "ART",
   education: [
     {
       UniversityName: "Duale Hochschule Baden-Würrtemberg Karlsruhe",

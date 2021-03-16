@@ -27,7 +27,7 @@ export default class About extends Component {
               <div className="column content">
                 <h2>Hobbies</h2>
                 <div class="content__container">
-                  <p class="content__container__text">I</p>
+                  <p class="content__container__text">I </p>
                   <ul class="content__container__list">
                     <li class="content__container__list__item">create art</li>
                     <li class="content__container__list__item">photograph</li>
