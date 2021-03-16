@@ -405,7 +405,7 @@ ul#nav li.current a {
   -webkit-animation: javascript 2s ease;
 }
 .reactjs {
-  width: 60%;
+  width: 70%;
   -moz-animation: reactjs 2s ease;
   -webkit-animation: reactjs 2s ease;
 }
@@ -444,7 +444,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 60%;
+    width: 70%;
   }
 }
 @-moz-keyframes angular {
@@ -485,7 +485,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 60%;
+    width: 70%;
   }
 }
 @-webkit-keyframes angular {
