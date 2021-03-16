@@ -24,7 +24,7 @@ let resumeData = {
   address: "Not gonna tell u where I live.",
   education: [
     {
-      UniversityName: "Duale Hochschule Baden-Würrtemberg Karlsruhe",
+      UniversityName: "Duale Hochschule Baden-Württemberg Karlsruhe",
       specialization: "Bachelor of science - Software Engineering",
       MonthOfPassing: "Oct",
       YearOfPassing: "2020",
